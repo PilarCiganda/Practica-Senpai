@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1 fr;
+    row-gap: 10px;
+    
+}
+
+.containerA {
+    grid-template-rows: 1;
+    background-color: #FDCA40;
+    padding: 5px;
+    height: 200px;
+    padding: 10px;
+}
+
+.containerB {
+    grid-template-rows: 2;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
+.dos {
+    grid-column: 1;
+    grid-row: 1/5;
+    background-color: #FDCA40;
+    padding: 10px;
+}
+
+.tres {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #FDCA40;
+    padding: 10px;
+}
+
+.cuatro {
+    grid-column: 3;
+    grid-row: 1/3;
+    background-color: #FDCA40;
+    padding: 10px;
+}
+
+.cinco {
+    grid-column: 4;
+    grid-row: 1/4;
+    background-color: #FDCA40;
+    padding: 10px;
+}
+
+.seis {
+    grid-column: 2;
+    grid-row: 2/5;
+    background-color: #FDCA40;
+    padding: 10px;
+}
+
+.siete {
+    grid-column: 3;
+    grid-row: 3;
+    background-color: #FDCA40;
+    padding: 10px;
+}
+
+.ocho {
+    grid-column: 3;
+    grid-row: 4;
+    background-color: #FDCA40;
+    padding: 10px;
+}
+
+.nueve {
+    grid-column: 4;
+    grid-row: 4;
+    background-color: #FDCA40;
+    padding: 10px;
+}

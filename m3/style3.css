@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+    grid-template-rows: 1fr 5fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 400px;
+    width: 700px;
+}
+
+.header {
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color: #EDD83D;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nav {
+    grid-column: 1;
+    grid-row: 2/4;
+    background-color: #EDD83D;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.article {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #EDD83D;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.ads {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: #EDD83D;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    grid-column: 2/4;
+    grid-row: 3;
+    background-color: #EDD83D;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}

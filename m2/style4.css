@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fd5fac;
+    margin: 200px 20px;
+}
+
+header {
+    background-color: #fceced;
+    color: white;
+    height: 400px;
+}
+
+.nav1 {
+    text-align: right;
+    color:#fd5fac;
+    margin-bottom: 40px;
+}
+
+nav li {
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+    background-color: #fd5fac;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: white;
+    color: #fd5fac;
+    border: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.article1 ul{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    list-style: none;
+}
+
+.article1 li{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+}
+
+.imgarticle {
+    width: 400px;
+}
+
+.article2 {
+    background-color: #fdc2c4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+ }
+
+ .articleTEXT {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 0 20px 0 70px;
+    color: white;
+ }
+
+ .articleIMG {
+    grid-column: 2;
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    margin: 40px;
+ }
+ 
+ .article2 h2 {
+    background-color: #fd5fac;
+    color: white;
+ }
+
+ .article2 p {
+    background-color: #fd5fac;
+    color: white;
+ }
+
+.article2 img { 
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footernav {
+    background-color: white;
+    color: #fd5fac;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footernav li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
