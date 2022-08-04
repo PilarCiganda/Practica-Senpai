@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let sueldo = parseInt(prompt("Ingrese su sueldo:"));
+        let antiguedad = parseInt(prompt("Ingrese los años de antiguedad en la empresa:"))
+    
+        if (sueldo < 500 && antiguedad >= 10) {
+            console.log("Tienes un aumento del 20 %, ahora tu sueldo es de: $" + sueldo*1.2)
+        } else if (sueldo < 500 && antiguedad < 10) {
+            console.log("Tienes un aumento del 5%, ahora tu sueldo es de: $" + sueldo*1.05)
+        } else if (sueldo >= 500) {
+            console.log ("Tu sueldo es de $500")
+        }
+    </script>
+</body>
+</html>

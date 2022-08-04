@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nombre = "Pilar Ciganda";
+        let preguntas = 100;
+        let correctas = 99;
+    
+        let nivel = correctas*100/preguntas
+    
+        if(nivel >= 90) {
+            console.log("Nivel Superior")
+        } else if (nivel >= 75 && nivel < 90) {
+            console.log("Nivel medio")
+        } else if(nivel >= 50 && nivel < 75) {
+            console.log("Nivel regular")
+        } else if (nivel < 50) {
+            console.log("Fuera de nivel")
+        }
+    </script>
+</body>
+</html>
